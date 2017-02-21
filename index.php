@@ -109,7 +109,7 @@
         <h4 style="font-family:Microsoft JhengHei; text-align:left;"><nobr style="color:red;">*</nobr> 必填</h4>
         <input id="name" class="form-control" id="inputPassword2" placeholder="姓名" style="font-family:Microsoft JhengHei;">
         <br>
-        <input id="phone" class="form-control" id="inputPassword2" placeholder="手機後五碼" style="font-family:Microsoft JhengHei;">
+        <input type="number" pattern="\d*" id="phone" class="form-control" id="inputPassword2" placeholder="手機後五碼" style="font-family:Microsoft JhengHei;">
         <br>
       </div>
 
